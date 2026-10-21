@@ -1,0 +1,84 @@
+{
+  "verdict": "real_anomaly",
+  "is_real_anomaly": true,
+  "issue_type": null,
+  "confidence": "high",
+  "cur_dt": "2020-12-15",
+  "base_dt": "2020-12-08",
+  "evidence": [
+    {
+      "check": "event_mix",
+      "flag": false,
+      "suspect_event": null,
+      "changes": {
+        "add_payment_info": -0.17957746478873238,
+        "add_shipping_info": -0.1347305389221557,
+        "add_to_cart": 0.07170294494238161,
+        "begin_checkout": -0.12562814070351758,
+        "first_visit": 0.011609498680738684,
+        "page_view": 0.013603728429273154,
+        "purchase": -0.18686868686868685,
+        "session_start": 0.011630088163571584,
+        "view_item": 0.0425861401471157
+      },
+      "median_change": 0.011609498680738684,
+      "outliers": [],
+      "finding": "各事件变化幅度一致，没有单一事件断崖"
+    },
+    {
+      "check": "event_mix_by_os",
+      "flag": false,
+      "finding": "按 os 切片后也没有发现单一事件断崖"
+    },
+    {
+      "check": "hourly",
+      "flag": false,
+      "truncated_from_hour": null,
+      "last_hour_with_data": 23,
+      "finding": "小时分布完整，没有截断"
+    },
+    {
+      "check": "new_values_channel",
+      "flag": false,
+      "appeared": {},
+      "vanished": {},
+      "finding": "channel 取值没有新增或消失"
+    },
+    {
+      "check": "new_values_device",
+      "flag": false,
+      "appeared": {},
+      "vanished": {},
+      "finding": "device 取值没有新增或消失"
+    },
+    {
+      "check": "new_values_country",
+      "flag": false,
+      "appeared": {},
+      "vanished": {},
+      "finding": "country 取值没有新增或消失"
+    }
+  ],
+  "significance": {
+    "check": "significance",
+    "pct_change": -0.23093185119078874,
+    "z": -2.4667431119337047,
+    "significant": true,
+    "factor_z": {
+      "uv": {
+        "pct_change": 0.011630088163571584,
+        "z": 0.8662828117965837
+      },
+      "cr": {
+        "pct_change": -0.19621675685091222,
+        "z": -2.5500579214672157
+      },
+      "aov": {
+        "pct_change": -0.05418948158867176,
+        "z": -0.7683533293720489
+      }
+    },
+    "significant_factors": [],
+    "finding": "GMV 变化 -23.1%，GMV |z|=2.47，阈值 2.0 → 显著"
+  }
+}

@@ -1,0 +1,22 @@
+{"query": "GMV 怎么算", "expected": "gmv"}
+{"query": "成交额下降了", "expected": "gmv"}
+{"query": "销售额口径", "expected": "gmv"}
+{"query": "访客数能不能跨设备相加", "expected": "uv"}
+{"query": "流量少了是怎么统计的", "expected": "uv"}
+{"query": "订单数要不要去重", "expected": "orders"}
+{"query": "转化率的分母是什么", "expected": "conversion_rate"}
+{"query": "分组 CR 能不能直接平均", "expected": "conversion_rate"}
+{"query": "转化率变化用 pp 还是百分比", "expected": "conversion_rate"}
+{"query": "客单价下降", "expected": "aov"}
+{"query": "AOV 定义", "expected": "aov"}
+{"query": "新访客占比", "expected": "new_user_ratio"}
+{"query": "first_visit 新用户", "expected": "new_user_ratio"}
+{"query": "商品浏览率", "expected": "view_rate"}
+{"query": "加购率的分母", "expected": "add_to_cart_rate"}
+{"query": "iOS 加购不上报", "expected": "add_to_cart_rate"}
+{"query": "结算率下降", "expected": "checkout_rate"}
+{"query": "结算页改版影响哪个指标", "expected": "checkout_rate"}
+{"query": "下单完成率超过 100%", "expected": "purchase_completion_rate"}
+{"query": "支付故障", "expected": "purchase_completion_rate"}
+{"query": "每单买几件", "expected": "items_per_order"}
+{"query": "件单价变低是降价吗", "expected": "avg_item_price"}

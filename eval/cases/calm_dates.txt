@@ -1,0 +1,3 @@
+# 评测注入用的「平静日期」：当前期与上周同日差异小（|z| < 1）
+# 用 sql/04_attribution/00_find_anomalies.sql 实测后一行一个填在下面，再跑 generate_cases.py
+# 没填时 generate_cases.py 会用占位日期 2020-11-18 / 2020-12-02 / 2020-12-09 / 2021-01-13（待实测确认）

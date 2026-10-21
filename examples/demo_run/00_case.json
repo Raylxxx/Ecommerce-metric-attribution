@@ -1,0 +1,24 @@
+{
+  "injected": {
+    "case_id": "demo",
+    "type": "conversion",
+    "date": "2020-12-15",
+    "base_date": "2020-12-08",
+    "segment": {
+      "channel": "organic"
+    },
+    "magnitude": 0.7,
+    "params": {}
+  },
+  "clean_stats": {
+    "rows_in": 1392824,
+    "dup_rows_removed": 10151,
+    "channel_unknown_rows": 27606,
+    "country_unknown_rows": 13812,
+    "device_unknown_rows": 0,
+    "purchase_no_txn_removed": 52,
+    "purchase_bad_revenue_removed": 53,
+    "purchase_dup_txn_removed": 102,
+    "rows_out": 1382466
+  }
+}

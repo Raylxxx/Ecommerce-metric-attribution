@@ -1,0 +1,16 @@
+{
+  "n": 50,
+  "root_cause_acc": 0.6,
+  "root_cause_acc_normal_only": 0.8571,
+  "n_hard": 22,
+  "by_type": {
+    "aov": 0.2,
+    "control": 1.0,
+    "conversion": 0.4,
+    "delay": 1.0,
+    "tracking_loss": 0.6,
+    "traffic": 0.8
+  },
+  "avg_seconds": 8.35,
+  "note": "合成数据 + 确定性规则基线，不代表 AI 助手在真实数据上的表现"
+}
