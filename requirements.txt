@@ -1,0 +1,17 @@
+# 核心分析
+pandas>=2.0
+numpy>=1.24
+# BigQuery
+google-cloud-bigquery>=3.11
+db-dtypes>=1.1
+# MCP 服务器（1.x 和 2.x 都兼容）
+mcp>=1.2
+# 评测裁判
+anthropic>=0.40
+# 测试 & 本地 SQL 校验
+pytest>=7.4
+sqlglot>=25.0
+duckdb>=1.0
+# notebook / 画图（可选）
+jupyter
+matplotlib

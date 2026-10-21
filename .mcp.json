@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "bq-attribution": {
+      "command": "python",
+      "args": ["mcp_server/server.py"],
+      "env": {
+        "GCP_PROJECT_ID": "${GCP_PROJECT_ID}",
+        "BQ_DATASET": "${BQ_DATASET:-ga4_attr}",
+        "BQ_TABLE_PREFIX": "${BQ_TABLE_PREFIX:-}",
+        "BQ_MAX_BYTES": "${BQ_MAX_BYTES:-2000000000}"
+      }
+    }
+  }
+}

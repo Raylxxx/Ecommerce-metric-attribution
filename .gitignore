@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# 密钥：绝对不能提交
+.env
+*.json.key
+service-account*.json
+credentials*.json
+
+# 数据
+data/raw/
+data/synthetic/
+*.hyper
+*.parquet
+*.pkl
+
+# 运行产物
+runs/*
+!runs/.gitkeep
+eval/results/v*/**/raw.json
+eval/inject/sql/
+
+# Tableau / 系统
+*.twbr
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+[project]
+name = "ecommerce-metric-attribution"
+version = "0.1.0"
+description = "电商指标异动归因分析 + AI 归因助手（GA4 / BigQuery / LMDI / Claude Code）"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
